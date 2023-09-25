@@ -12,3 +12,11 @@ $ git clone https://github.com/Tinker-Twins/Computing-and-Simulation-for-Autonom
 ```bash
 $ cd Computing-and-Simulation-for-Autonomy/HW2/Tanmay
 ```
+
+## BUILD
+
+1. Compile the C++ program for each question:
+```bash
+$ g++ Q1.cpp -o Q1
+$ g++ Q2.cpp -o Q2
+```
