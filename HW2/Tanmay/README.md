@@ -28,3 +28,13 @@ $ g++ Q2.cpp -o Q2
 $ ./Q1
 $ ./Q2
 ```
+
+## RESULTS
+
+1. A sample execution for `Q1` is depicted below:
+
+![](Q1.png)
+
+2. A sample execution for `Q2` is depicted below:
+
+![](Q2.png)
