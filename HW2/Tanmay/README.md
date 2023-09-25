@@ -20,3 +20,11 @@ $ cd Computing-and-Simulation-for-Autonomy/HW2/Tanmay
 $ g++ Q1.cpp -o Q1
 $ g++ Q2.cpp -o Q2
 ```
+
+## RUN
+
+1. Run the executable for each question:
+```bash
+$ ./Q1
+$ ./Q2
+```
