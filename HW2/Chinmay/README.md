@@ -33,3 +33,6 @@ Execute the compiled executables using the `run_q1.sh` and `run_q2.sh` shell scr
 $ ./run_q1.sh
 $ ./run_q2.sh
 ```
+
+## RESULTS
+![results](https://github.com/Tinker-Twins/Computing-and-Simulation-for-Autonomy/blob/main/HW2/Chinmay/results.png)
