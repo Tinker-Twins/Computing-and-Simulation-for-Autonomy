@@ -160,3 +160,15 @@ The time complexity of this algorithm is ***O(n)***, where *n* is the number of 
 ![](Q8.png)
 
 The time complexity of this algorithm is ***O(n)***, where *n* is the length of the input strings, as it makes a single pass through both strings.
+
+9. Map path search:
+
+| ![](map-path-search/Q9a_1.png) | ![](map-path-search/Q9a_2.png) |
+|:--------:|:-------------:|
+| A* Occupancy Grid | Dijkstra Occupancy Grid |
+| ![](map-path-search/Q9b_1.png) | ![](map-path-search/Q9b_2.png) |
+| A* Quadtree | Dijkstra Quadtree |
+| ![](map-path-search/Q9c_1a.png) | ![](map-path-search/Q9c_1b.png) |
+| A* Resolution | Dijkstra Resolution |
+| ![](map-path-search/Q9c_2a.png) | ![](map-path-search/Q9c_2b.png) |
+| A* and Dijkstra Occupancy Grid | A* and Dijkstra Occupancy Grid |
