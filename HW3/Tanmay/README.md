@@ -73,11 +73,45 @@ Assuming that you are already in `Computing-and-Simulation-for-Autonomy/HW3/Tanm
 $ cd map-path-search
 ```
 
-`Q9.1a`
+For `Q9a_1`, uncomment `a_star_occupancy` section and run:
 ```bash
 $ python3 occupancy_map_8n.py
 ```
 
+For `Q9a_2`, uncomment `dijkstra_occupancy` section and run:
+```bash
+$ python3 occupancy_map_8n.py
+```
+
+For `Q9b_1`, uncomment `a_star_quadtree` section and run:
+```bash
+$ python3 quadtree_map_8n.py
+```
+
+For `Q9b_2`, uncomment `dijkstra_quadtree` section and run:
+```bash
+$ python3 quadtree_map_8n.py
+```
+
+For `Q9c_1a`, change the resolution, uncomment both `a_star_occupancy` and `dijkstra_occupancy` sections and run:
+```bash
+$ python3 occupancy_map_8n.py
+```
+
+For `Q9c_1b`, change the resolution, uncomment both `a_star_quadtree` and `dijkstra_quadtree` sections and run:
+```bash
+$ python3 quadtree_map_8n.py
+```
+
+For `Q9c_2a`, uncomment both `a_star_occupancy` and `dijkstra_occupancy` sections and run:
+```bash
+$ python3 occupancy_map_8n.py
+```
+
+For `Q9c_2b`, uncomment both `a_star_quadtree` and `dijkstra_quadtree` sections and run:
+```bash
+$ python3 quadtree_map_8n.py
+```
 
 ## RESULTS
 
