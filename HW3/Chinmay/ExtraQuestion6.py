@@ -4,6 +4,12 @@ from matplotlib import pyplot as plt
 import numpy as np
 from scipy.fft import fft
 
+'''
+The time complexity of performing the DFT using SciPy is O(N*log(N)), where N is
+the length of the input signal. This code is time-complexity optimized for applying
+the DFT and visualizing the original and result signals.
+'''
+
 # Define original signal
 fre = 5 # Frequency in terms of Hertz
 fre_samp = 50 # Sample rate
