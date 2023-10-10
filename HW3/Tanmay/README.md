@@ -26,7 +26,9 @@ $ g++ Q7.cpp -o Q7
 $ g++ Q8.cpp -o Q8
 ```
 
--  For `Q6`, you will first need to install OpenCV:
+-  For `Q6`, the build instructions are a little different:
+
+You will first need to install OpenCV.
 
 Update/upgrade `apt` packages:
 ```bash
