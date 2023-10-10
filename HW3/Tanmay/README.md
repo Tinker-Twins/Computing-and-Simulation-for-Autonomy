@@ -172,3 +172,27 @@ The time complexity of this algorithm is ***O(n)***, where *n* is the length of 
 | A* Resolution | Dijkstra Resolution |
 | ![](map-path-search/Q9c_2a.png) | ![](map-path-search/Q9c_2b.png) |
 | A* and Dijkstra Occupancy Grid | A* and Dijkstra Occupancy Grid |
+
+The time complexity of pathfinding algorithms like A* and Dijkstra's algorithm can vary depending on the data structures and heuristics used, as well as the specifics of the problem and the map representation. Here, I'll discuss the time complexity for both occupancy grid-based and quadtree-based implementations of A* and Dijkstra's algorithm.
+
+- **Occupancy Grid-Based Algorithms:**
+  - ***Dijkstra's Algorithm (Grid-Based):***
+    - ***Time Complexity:*** O((V + E) * log(V)), where V is the number of grid cells (vertices) and E is the number of grid cell connections (edges).
+    - ***Explanation:*** Dijkstra's algorithm explores vertices in increasing order of their distance from the start node. The use of a priority queue (typically implemented as a binary heap) for selecting the next node to expand ensures efficient selection of nodes with the lowest distance.
+
+  - ***A\* Algorithm (Grid-Based):***
+    - ***Time Complexity:*** O((V + E) * log(V)) with a good heuristic.
+    - ***Explanation:*** A* combines Dijkstra's algorithm with an admissible heuristic that guides the search towards the goal. In practice, A* often performs better than Dijkstra's algorithm because it explores fewer nodes due to the heuristic's guidance. The time complexity is similar to Dijkstra's but with potentially fewer node expansions.
+
+- **Quadtree-Based Algorithms:**
+  - ***Dijkstra's Algorithm (Quadtree-Based):***
+    - ***Time Complexity:*** O((V + E) * log(V)), where V is the number of tiles (vertices) in the quadtree and E is the number of connections between tiles.
+    - ***Explanation:*** The time complexity for Dijkstra's algorithm remains the same as in the grid-based case when applied to a quadtree-based map representation. The data structures used for managing nodes (e.g., priority queues) are the same.
+
+  - ***A\* Algorithm (Quadtree-Based):***
+    - ***Time Complexity:*** O((V + E) * log(V)) with a good heuristic.
+    - ***Explanation:*** A* with a quadtree-based map representation has a time complexity similar to that of Dijkstra's algorithm. The use of a good heuristic can reduce the number of node expansions, making A* more efficient than Dijkstra's in practice.
+
+In both occupancy grid-based and quadtree-based implementations, the primary factor influencing time complexity is the number of vertices (V) and edges (E) in the graph or map representation. The choice of data structures for managing nodes and the efficiency of the heuristic function also play a role. When a good heuristic is used and the search space is reduced, A* tends to outperform Dijkstra's algorithm in terms of speed.
+
+It's important to note that these time complexities are theoretical upper bounds and can vary in practice based on map characteristics, the quality of the heuristic, and implementation details.
