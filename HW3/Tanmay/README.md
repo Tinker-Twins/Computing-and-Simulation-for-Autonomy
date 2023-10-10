@@ -54,7 +54,7 @@ $ g++ Q6.cpp -o Q6 `pkg-config opencv4 --cflags --libs`
 
 ## RUN
 
-- Run the executable for each question:
+- Run the executable for questions `Q1` to `Q8`:
 ```bash
 $ ./Q1
 $ ./Q2
@@ -65,6 +65,19 @@ $ ./Q6
 $ ./Q7
 $ ./Q8
 ```
+
+- For `Q9` execute the respective Python scripts:
+
+Assuming that you are already in `Computing-and-Simulation-for-Autonomy/HW3/Tanmay` directory, change directory to `map-path-search`:
+```bash
+$ cd map-path-search
+```
+
+`Q9.1a`
+```bash
+$ python3 occupancy_map_8n.py
+```
+
 
 ## RESULTS
 
