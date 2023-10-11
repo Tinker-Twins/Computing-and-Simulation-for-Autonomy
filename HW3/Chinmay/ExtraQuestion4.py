@@ -12,8 +12,8 @@ template matching with OpenCV.
 '''
 
 # Load the main image and the template
-img = cv2.imread('Messi Full.jpg', 0)
-template = cv2.imread('Messi Face.jpg', 0)
+img = cv2.imread('MessiFull.jpg', 0)
+template = cv2.imread('MessiFace.jpg', 0)
 w, h = template.shape[::-1]
 
 # All the 6 methods for comparison in a list
