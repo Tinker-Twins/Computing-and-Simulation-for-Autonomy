@@ -102,11 +102,11 @@ Following are some useful methods from the `Agent` class:
 
 	> ***Note:*** *It is to be noted that `agent` is an intelligent entity capable of making observations and taking decisions; it can “learn”. On the contrary, `actor` is a physical entity within the environment. It is controlled by an agent. In this context, the terms "agent" and "AI" can go together, much like interchangeably using the terms “actor” and “robot”.*
 
-5. `public override void OnEpisodeBegin()`
+4. `public override void OnEpisodeBegin()`
 
 	This method is called after `EndEpisode()`. Define your "reset" algorithm here before starting the next episode.
 
-6. `public override void Heuristic(in ActionBuffers actionsOut)`
+5. `public override void Heuristic(in ActionBuffers actionsOut)`
 
 	Use `actionsOut.DiscreteActions[i]` or `actionsOut.ContinuousActions[i]` to define manual-override controls during `Heuristic Only` behaviour of the agent.
 
@@ -118,31 +118,37 @@ After defining your logic, test the functionality by selecting `Heuristic Only` 
 
 ### Training
 
-1. Create a configuration file (`<config>.yaml`) to define training parameters. For details, refer the [official training configuration guide](https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Training-Configuration-File.md).
+1. Create a configuration file (`<config>.yaml`) to define training parameters. This project contains two such `config` files:
+- [NigelCrossing](https://github.com/Tinker-Twins/Computing-and-Simulation-for-Autonomy/blob/main/Project%20Workspace/Training%20Configurations/NigelCrossing.yaml): For collaborative multi-agent intersection traversal using deep reinforcement learning.
+- [F1TenthRacing](https://github.com/Tinker-Twins/Computing-and-Simulation-for-Autonomy/blob/main/Project%20Workspace/Training%20Configurations/F1TenthRacing.yaml): For competitive head-to-head autonomous racing using demonstration-guided deep reinforcement learning.
+  > ***Note:*** *The pre-recorded sub-optimal single-agent driving demonstrations (5 laps) for both the agents are located in [Demonstrations](https://github.com/Tinker-Twins/Computing-and-Simulation-for-Autonomy/tree/main/Project%20Workspace/Demonstrations) directory of this project.*
 
-    ***Note:*** *Two configuration files are provided: `C-MARL.yaml` and `NC-MARL.yaml` for cooperative and non-cooperative multi-agent motion planning, respectively.*
+For creating your own training configurations, please refer to the [official training configuration guide](https://github.com/Unity-Technologies/ml-agents/blob/main/docs/Training-Configuration-File.md).
 
-2. Within the `BehaviourParameters` script attached to the agent, give a unique `Behaviour Name` for training purpose.
+2. Within the `BehaviourParameters` script attached to the agent, give a unique `Behaviour Name` for training purpose. Also configure the observation and action spaces appropriately.
+   > ***Note:*** *You must set the `Behavior Type` of all agents to `Default` in order to enable training. The agent(s) will not learn in `Heuristic Only` or `Inference Only` modes.*
 
-3. Activate the `ML-Agents` environment:
+3. At this point, you may set the `Decision Period` within the `DecisionRequester` script attached to the agent.
+
+4. Launch an Anaconda Prompt and activate the virtual environment:
   
     ```bash
-    $ conda activate ML-Agents
+    $ conda activate autodrive
     ```
 
-4. Navigate to the Unity ML-Agents Repository directory:
+5. Navigate to the [Training Configurations](https://github.com/Tinker-Twins/Computing-and-Simulation-for-Autonomy/tree/main/Project%20Workspace/Training%20Configurations) directory:
    
    ```bash
-    $ cd <path/to/unity-ml-agents/repository>
+    $ cd <path/to/Training Configurations>
     ```
 
-5. Start the training.
+6. Start the training by sourcing the appropriate training configuration and `run-id`.
    
    ```bash
-   $ mlagents-learn <path/to/config>.yaml --run-id=<Run1>
+   $ mlagents-learn <config>.yaml --run-id=<Run1>
    ```
 
-6. Hit the `Play` button in Unity Editor to "actually" start the training.
+7. Hit the `Play` button in Unity Editor to "actually" start the training.
 
 ### Training Analysis
 
