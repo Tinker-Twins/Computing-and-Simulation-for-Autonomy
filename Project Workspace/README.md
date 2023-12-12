@@ -136,16 +136,17 @@ For creating your own training configurations, please refer to the [official tra
     $ conda activate autodrive
     ```
 
-5. Navigate to the [Training Configurations](https://github.com/Tinker-Twins/Computing-and-Simulation-for-Autonomy/tree/main/Project%20Workspace/Training%20Configurations) directory:
+5. Navigate to the [Results](https://github.com/Tinker-Twins/Computing-and-Simulation-for-Autonomy/tree/main/Project%20Workspace/Results) directory:
    
    ```bash
-    $ cd <path/to/Training Configurations>
+    $ cd <path/to/Results>
     ```
+   > ***Note:*** *The training results will be stored in this directory. However, you can move/organize them later to avoid overwriting.*
 
-6. Start the training by sourcing the appropriate training configuration and `run-id`.
+6. Start the training by sourcing the appropriate training configuration (using relative/global path) and `run-id`.
    
    ```bash
-   $ mlagents-learn <config>.yaml --run-id=<Run1>
+   $ mlagents-learn path/to/<config>.yaml --run-id=<Run1>
    ```
 
 7. Hit the `Play` button in Unity Editor to "actually" start the training.
