@@ -153,10 +153,10 @@ For creating your own training configurations, please refer to the [official tra
 
 ### Training Analysis
 
-1. Navigate to the Unity ML-Agents Repository directory:
+1. Navigate to the [Results](https://github.com/Tinker-Twins/Computing-and-Simulation-for-Autonomy/tree/main/Project%20Workspace/Results) directory:
    
    ```bash
-    $ cd <path/to/unity-ml-agents/repository>
+    $ cd <path/to/Results>
     ```
 
 2. Launch TensorBoard to analyze the training results:
