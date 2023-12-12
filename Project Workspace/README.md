@@ -171,24 +171,20 @@ For creating your own training configurations, please refer to the [official tra
 
 ### Deployment
 
-1. Navigate to the Unity ML-Agents Repository directory and locate a folder called `results`.
+1. Navigate to the `Results` directory and locate a folder named after the `<training_behaviour_name>/<run-id>` that you defined while training the agent(s).
 
-2. Open the `results` folder and locate a folder named after the `<training_behaviour_name>` that you used while training the agent(s).
+2. In the inspector window, attach the saved neural network models (the `*.onnx` files) to the respective `Model` variable in the `BehaviourParameters` script attached to the agent(s).
 
-3. Copy the saved neural network models (the `*.nn` files) into the `TF Models` folder of the `MARL Simulator` Unity Project.
+3. Select `Default` or `Inference Only` mode in the `Behaviour Type` of the `BehaviourParameters` attached to the agent(s).
 
-4. In the inspector window, attach respective NN model(s) to the `Model` variable in the `BehaviourParameters` script attached to the agent(s).
-
-5. Select `Inference Only` in the `Behaviour Type` of the `BehaviourParameters` attached to the agent(s).
-
-6. Hit the play button in Unity Editor and watch your agent(s) play!
+4. Hit the play button in Unity Editor and watch your agent(s) in autonomous mode!
 
 ## IMPORTANT TIPS
 
-1. Craft the reward function carefully; agents cheat a lot!
+1. Craft the reward function carefully; agents can cheat a lot!
 
 2. Tune the training parameters in `<config>`.yaml file.
 
-3. As long as possible, duplicate the training arenas within the scene to ensure parallel (faster) training.
+3. As long as possible, duplicate the training agents/environments within the scene to ensure parallel (faster) training.
 
     ***Note:*** *Make sure to commit changes (if any) to all the duplicates as well!*
