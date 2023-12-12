@@ -1,0 +1,211 @@
+\begin{thebibliography}{10}
+\providecommand{\url}[1]{#1}
+\csname url@rmstyle\endcsname
+\providecommand{\newblock}{\relax}
+\providecommand{\bibinfo}[2]{#2}
+\providecommand\BIBentrySTDinterwordspacing{\spaceskip=0pt\relax}
+\providecommand\BIBentryALTinterwordstretchfactor{4}
+\providecommand\BIBentryALTinterwordspacing{\spaceskip=\fontdimen2\font plus
+\BIBentryALTinterwordstretchfactor\fontdimen3\font minus
+  \fontdimen4\font\relax}
+\providecommand\BIBforeignlanguage[2]{{%
+\expandafter\ifx\csname l@#1\endcsname\relax
+\typeout{** WARNING: IEEEtran.bst: No hyphenation pattern has been}%
+\typeout{** loaded for the language `#1'. Using the pattern for}%
+\typeout{** the default language instead.}%
+\else
+\language=\csname l@#1\endcsname
+\fi
+#2}}
+
+\bibitem{semnani2020multiagent}
+S.~H. Semnani, H.~Liu, M.~Everett, A.~de~Ruiter, and J.~P. How, ``{Multi-agent
+  Motion Planning for Dense and Dynamic Environments via Deep Reinforcement
+  Learning},'' \emph{IEEE Robotics and Automation Letters}, vol.~5, no.~2, pp.
+  3221--3226, 2020.
+
+\bibitem{long2018optimally}
+P.~Long, T.~Fan, X.~Liao, W.~Liu, H.~Zhang, and J.~Pan, ``{Towards Optimally
+  Decentralized Multi-Robot Collision Avoidance via Deep Reinforcement
+  Learning},'' in \emph{2018 IEEE International Conference on Robotics and
+  Automation (ICRA)}, 2018, pp. 6252--6259.
+
+\bibitem{aradi2020survey}
+S.~Aradi, ``{Survey of Deep Reinforcement Learning for Motion Planning of
+  Autonomous Vehicles},'' \emph{IEEE Transactions on Intelligent Transportation
+  Systems}, vol.~23, no.~2, pp. 740--759, 2022.
+
+\bibitem{wang2020mrcdrl}
+\BIBentryALTinterwordspacing
+D.~Wang, H.~Deng, and Z.~Pan, ``{MRCDRL: Multi-Robot Coordination with Deep
+  Reinforcement Learning},'' \emph{Neurocomputing}, vol. 406, pp. 68--76, 2020.
+  [Online]. Available:
+  \url{https://www.sciencedirect.com/science/article/pii/S0925231220305932}
+\BIBentrySTDinterwordspacing
+
+\bibitem{zhou2019learn}
+X.~Zhou, P.~Wu, H.~Zhang, W.~Guo, and Y.~Liu, ``{Learn to Navigate: Cooperative
+  Path Planning for Unmanned Surface Vehicles Using Deep Reinforcement
+  Learning},'' \emph{IEEE Access}, vol.~7, pp. 165\,262--165\,278, 2019.
+
+\bibitem{9316033}
+\BIBentryALTinterwordspacing
+K.~Sivanathan, B.~K. Vinayagam, T.~Samak, and C.~Samak, ``{Decentralized Motion
+  Planning for Multi-Robot Navigation using Deep Reinforcement Learning},'' in
+  \emph{2020 3rd International Conference on Intelligent Sustainable Systems
+  (ICISS)}, 2020, pp. 709--716. [Online]. Available:
+  \url{https://doi.org/10.1109/ICISS49785.2020.9316033}
+\BIBentrySTDinterwordspacing
+
+\bibitem{fuchs2020}
+F.~Fuchs, Y.~Song, E.~Kaufmann, D.~Scaramuzza, and P.~Dürr, ``{Super-Human
+  Performance in Gran Turismo Sport Using Deep Reinforcement Learning},''
+  \emph{IEEE Robotics and Automation Letters}, vol.~6, no.~3, pp. 4257--4264,
+  2021.
+
+\bibitem{song2021}
+Y.~Song, H.~Lin, E.~Kaufmann, P.~Dürr, and D.~Scaramuzza, ``{Autonomous
+  Overtaking in Gran Turismo Sport Using Curriculum Reinforcement Learning},''
+  in \emph{2021 IEEE International Conference on Robotics and Automation
+  (ICRA)}, 2021, pp. 9403--9409.
+
+\bibitem{AutoRACE-2021}
+\BIBentryALTinterwordspacing
+C.~V. Samak, T.~V. Samak, and S.~Kandhasamy, ``{Autonomous Racing using a
+  Hybrid Imitation-Reinforcement Learning Architecture},'' 2021. [Online].
+  Available: \url{https://arxiv.org/abs/2110.05437}
+\BIBentrySTDinterwordspacing
+
+\bibitem{9790832}
+J.~Betz, H.~Zheng, A.~Liniger, U.~Rosolia, P.~Karle, M.~Behl, V.~Krovi, and
+  R.~Mangharam, ``{Autonomous Vehicles on the Edge: A Survey on Autonomous
+  Vehicle Racing},'' \emph{IEEE Open Journal of Intelligent Transportation
+  Systems}, vol.~3, pp. 458--488, 2022.
+
+\bibitem{AutoDRIVE2023}
+\BIBentryALTinterwordspacing
+T.~Samak, C.~Samak, S.~Kandhasamy, V.~Krovi, and M.~Xie, ``{AutoDRIVE: A
+  Comprehensive, Flexible and Integrated Digital Twin Ecosystem for Autonomous
+  Driving Research \& Education},'' \emph{Robotics}, vol.~12, no.~3, p.~77, May
+  2023. [Online]. Available: \url{http://dx.doi.org/10.3390/robotics12030077}
+\BIBentrySTDinterwordspacing
+
+\bibitem{AutoDRIVEReport2022}
+\BIBentryALTinterwordspacing
+T.~V. Samak and C.~V. Samak, ``{AutoDRIVE - Technical Report},'' 2022.
+  [Online]. Available: \url{https://doi.org/10.48550/arXiv.2211.08475}
+\BIBentrySTDinterwordspacing
+
+\bibitem{10196233}
+\BIBentryALTinterwordspacing
+C.~Samak, T.~Samak, and V.~Krovi, ``{Towards Mechatronics Approach of System
+  Design, Verification and Validation for Autonomous Vehicles},'' in \emph{2023
+  IEEE/ASME International Conference on Advanced Intelligent Mechatronics
+  (AIM)}, 2023, pp. 1208--1213. [Online]. Available:
+  \url{https://doi.org/10.1109/AIM46323.2023.10196233}
+\BIBentrySTDinterwordspacing
+
+\bibitem{F1TENTH2019}
+\BIBentryALTinterwordspacing
+M.~O'Kelly, V.~Sukhil, H.~Abbas, J.~Harkins, C.~Kao, Y.~V. Pant, R.~Mangharam,
+  D.~Agarwal, M.~Behl, P.~Burgio, and M.~Bertogna. (2019) {F1/10: An
+  Open-Source Autonomous Cyber-Physical Platform}. [Online]. Available:
+  \url{https://arxiv.org/abs/1901.08567}
+\BIBentrySTDinterwordspacing
+
+\bibitem{AutoDRIVESimulator2021}
+\BIBentryALTinterwordspacing
+T.~V. Samak, C.~V. Samak, and M.~Xie, ``{AutoDRIVE Simulator: A Simulator for
+  Scaled Autonomous Vehicle Research and Education},'' in \emph{2021 2nd
+  International Conference on Control, Robotics and Intelligent System}, ser.
+  CCRIS'21.\hskip 1em plus 0.5em minus 0.4em\relax New York, NY, USA:
+  Association for Computing Machinery, 2021, p. 1–5. [Online]. Available:
+  \url{https://doi.org/10.1145/3483845.3483846}
+\BIBentrySTDinterwordspacing
+
+\bibitem{AutoDRIVESimulatorReport2020}
+\BIBentryALTinterwordspacing
+T.~V. Samak and C.~V. Samak, ``{AutoDRIVE Simulator - Technical Report},''
+  2022. [Online]. Available: \url{https://doi.org/10.48550/arXiv.2211.07022}
+\BIBentrySTDinterwordspacing
+
+\bibitem{RoadRunner2021}
+\BIBentryALTinterwordspacing
+{Mathworks Inc.}, ``{RoadRunner},'' 2021. [Online]. Available:
+  \url{https://www.mathworks.com/products/roadrunner.html}
+\BIBentrySTDinterwordspacing
+
+\bibitem{OpenSCENARIO2021}
+\BIBentryALTinterwordspacing
+{Association for Standardization of Automation and Measuring Systems (ASAM)},
+  ``{OpenSCENARIO},'' 2021. [Online]. Available:
+  \url{https://www.asam.net/standards/detail/openscenario}
+\BIBentrySTDinterwordspacing
+
+\bibitem{OpenDRIVE2021}
+\BIBentryALTinterwordspacing
+------, ``{OpenDRIVE},'' 2021. [Online]. Available:
+  \url{https://www.asam.net/standards/detail/opendrive}
+\BIBentrySTDinterwordspacing
+
+\bibitem{Unity2021}
+\BIBentryALTinterwordspacing
+{Unity Technologies}, ``{Unity},'' 2021. [Online]. Available:
+  \url{https://unity.com}
+\BIBentrySTDinterwordspacing
+
+\bibitem{UnityTerrain2021}
+\BIBentryALTinterwordspacing
+------, ``{Unity Terrain},'' 2021. [Online]. Available:
+  \url{https://docs.unity3d.com/Manual/script-Terrain.html}
+\BIBentrySTDinterwordspacing
+
+\bibitem{MLAgents2018}
+\BIBentryALTinterwordspacing
+A.~Juliani, V.-P. Berges, E.~Teng, A.~Cohen, J.~Harper, C.~Elion, C.~Goy,
+  Y.~Gao, H.~Henry, M.~Mattar, and D.~Lange, ``{Unity: A General Platform for
+  Intelligent Agents},'' 2018. [Online]. Available:
+  \url{https://arxiv.org/abs/1809.02627}
+\BIBentrySTDinterwordspacing
+
+\bibitem{PPO2017}
+\BIBentryALTinterwordspacing
+J.~Schulman, F.~Wolski, P.~Dhariwal, A.~Radford, and O.~Klimov, ``Proximal
+  policy optimization algorithms,'' 2017. [Online]. Available:
+  \url{https://arxiv.org/abs/1707.06347}
+\BIBentrySTDinterwordspacing
+
+\bibitem{ramachandran2017}
+P.~Ramachandran, B.~Zoph, and Q.~V. Le,
+  ``{\href{https://arxiv.org/pdf/1710.05941.pdf}{Searching for Activation
+  Functions}},'' 2017.
+
+\bibitem{bain1995}
+M.~Bain and C.~Sammut,
+  ``{\href{http://www.cse.unsw.edu.au/~claude/papers/MI15.pdf}{A Framework for
+  Behavioural Cloning}},'' in \emph{Machine Intelligence 15}, 1995.
+
+\bibitem{ho2016}
+J.~Ho and S.~Ermon,
+  ``{\href{https://dl.acm.org/doi/pdf/10.5555/3157382.3157608}{Generative
+  Adversarial Imitation Learning}},'' in \emph{Proceedings of the 30th
+  International Conference on Neural Information Processing Systems}, ser.
+  NIPS'16.\hskip 1em plus 0.5em minus 0.4em\relax Red Hook, NY, USA: Curran
+  Associates Inc., 2016, p. 4572–4580.
+
+\bibitem{pathak2017}
+D.~Pathak, P.~Agrawal, A.~A. Efros, and T.~Darrell,
+  ``{\href{https://dl.acm.org/doi/pdf/10.5555/3305890.3305968}{Curiosity-Driven
+  Exploration by Self-Supervised Prediction}},'' in \emph{Proceedings of the
+  34th International Conference on Machine Learning - Volume 70}, ser.
+  ICML'17.\hskip 1em plus 0.5em minus 0.4em\relax JMLR.org, 2017, p.
+  2778–2787.
+
+\bibitem{samak2023sim2real}
+\BIBentryALTinterwordspacing
+C.~V. Samak, T.~V. Samak, and V.~Krovi, ``{Towards Sim2Real Transfer of
+  Autonomy Algorithms using AutoDRIVE Ecosystem},'' 2023. [Online]. Available:
+  \url{https://doi.org/10.48550/arXiv.2307.13272}
+\BIBentrySTDinterwordspacing
+
+\end{thebibliography}

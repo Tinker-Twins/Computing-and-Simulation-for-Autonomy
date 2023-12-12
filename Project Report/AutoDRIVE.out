@@ -1,0 +1,27 @@
+\BOOKMARK [1][-]{section.1}{Introduction}{}% 1
+\BOOKMARK [1][-]{section.2}{Digital Twin Creation}{}% 2
+\BOOKMARK [2][-]{subsection.2.1}{Vehicle Dynamics Models}{section.2}% 3
+\BOOKMARK [2][-]{subsection.2.2}{Sensor Models}{section.2}% 4
+\BOOKMARK [2][-]{subsection.2.3}{Actuator Models}{section.2}% 5
+\BOOKMARK [2][-]{subsection.2.4}{Environment Models}{section.2}% 6
+\BOOKMARK [1][-]{section.3}{Cooperative Multi-Agent Scenario}{}% 7
+\BOOKMARK [2][-]{subsection.3.1}{Problem Formulation}{section.3}% 8
+\BOOKMARK [2][-]{subsection.3.2}{State Space}{section.3}% 9
+\BOOKMARK [2][-]{subsection.3.3}{Observation Space}{section.3}% 10
+\BOOKMARK [2][-]{subsection.3.4}{Action Space}{section.3}% 11
+\BOOKMARK [2][-]{subsection.3.5}{Reward Function}{section.3}% 12
+\BOOKMARK [2][-]{subsection.3.6}{Optimization Problem}{section.3}% 13
+\BOOKMARK [2][-]{subsection.3.7}{Training}{section.3}% 14
+\BOOKMARK [2][-]{subsection.3.8}{Simulation Parallelization}{section.3}% 15
+\BOOKMARK [2][-]{subsection.3.9}{Deployment}{section.3}% 16
+\BOOKMARK [1][-]{section.4}{Competitive Multi-Agent Scenario}{}% 17
+\BOOKMARK [2][-]{subsection.4.1}{Problem Formulation}{section.4}% 18
+\BOOKMARK [2][-]{subsection.4.2}{Observation Space}{section.4}% 19
+\BOOKMARK [2][-]{subsection.4.3}{Action Space}{section.4}% 20
+\BOOKMARK [2][-]{subsection.4.4}{Reward Function}{section.4}% 21
+\BOOKMARK [2][-]{subsection.4.5}{Optimization Problem}{section.4}% 22
+\BOOKMARK [2][-]{subsection.4.6}{Training}{section.4}% 23
+\BOOKMARK [2][-]{subsection.4.7}{Simulation Parallelization}{section.4}% 24
+\BOOKMARK [2][-]{subsection.4.8}{Deployment}{section.4}% 25
+\BOOKMARK [1][-]{section.5}{Conclusion}{}% 26
+\BOOKMARK [1][-]{section*.14}{References}{}% 27
