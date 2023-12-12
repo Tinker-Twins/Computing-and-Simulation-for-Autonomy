@@ -10,12 +10,26 @@ This work presents a modular and parallelizable multi-agent deep reinforcement l
 ## LEARNING ARCHITECTURES
 
 | <img src="../Project%20Report/Fig4.png" width="500"> | <img src="../Project%20Report/Fig8.png" width="500"> |
-|:--------------------:|:--------------------:|
+|:-----------------------------------------------------------------:|:--------------------------------------------------------------:|
 | **Deep Reinforcement Learning Architecture for Cooperative MARL** | **Demonstration-Guided DRL Architecture for Competitive MARL** |
 
 We formulated the cooperative MARL problem as a partially observable Markov decision process (POMDP) with limited state sharing among the agents via V2V communication. We adopted a deep reinforcement learning (DRL) architecture and crafted a novel reward function to train the agent(s) to traverse the 4-way intersection safely.
 
 The competitive MARL problem was also formulated as a partially observable Markov decision process (POMDP), but without any state sharing among the agents. We adopted a hybrid imitation-reinforcement learning architecture and crafted a novel reward function to train a deep neural network policy to drive (using imitation learning) and race (using reinforcement learning) autonomously.
+
+## TRAINING RESULTS
+
+| <img src="../Project%20Report/Fig5a.png" width="500"> | <img src="../Project%20Report/Fig5b.png" width="500"> | <img src="../Project%20Report/Fig5c.png" width="500"> |
+|:-----------------------------------------------------:|:-----------------------------------------------------:|:-----------------------------------------------------:|
+| <img src="../Project%20Report/Fig5d.png" width="500"> | <img src="../Project%20Report/Fig5e.png" width="500"> | <img src="../Project%20Report/Fig5f.png" width="500"> |
+
+We analyzed the training for both single-agent (first row) as well as multi-agent (second row) systems learning the intersection traversal task. The key training metrics being analyzed here were the cumulative reward, episode length and policy entropy. A general indication of “good” training is that the cumulative reward is maximized and then saturated, the episode length is adequate (longer duration implies agents wandering off in the environment, while very short duration may be indicative of agents colliding/overstepping lane bounds), and the policy entropy (i.e., randomness) has decreased steadily as the training progressed. It is to be noted that the predominant cause for the difference in trends of training metrics for single and multi-agent scenarios is the higher stochasticity of the multi-agent scenario, which is especially evident from the policy entropy.
+
+| <img src="../Project%20Report/Fig9a.png" width="500"> | <img src="../Project%20Report/Fig9b.png" width="500"> | <img src="../Project%20Report/Fig9c.png" width="500"> |
+|:-----------------------------------------------------:|:-----------------------------------------------------:|:-----------------------------------------------------:|
+| <img src="../Project%20Report/Fig9d.png" width="500"> | <img src="../Project%20Report/Fig9e.png" width="500"> | <img src="../Project%20Report/Fig9f.png" width="500"> |
+
+For competitive MARL, the training phase of the proposed approach was analyzed in order to gain a better insight into the policy optimization process, and comment on the effectiveness of the hybrid learning strategy adopted therein. Particularly, we analyzed the imitation learning (behavioral cloning loss, GAIL reward) and reinforcement learning (curiosity reward, extrinsic reward) metrics along with the episode length and policy entropy.  A general indication of “good” training is that the behavioral cloning loss has decayed smoothly, the GAIL, curiosity and extrinsic rewards are maximized and then saturated, the episode length is adequate (longer duration implies agents driving slowly, while very short duration may be indicative of agents colliding without lap completion), and the policy entropy (i.e., randomness) has decreased steadily as the training progressed. It is to be noted that the non-zero offset in behavioral cloning loss indicates that the agents have not over-fit to the demonstrations; rather, they have explored the state space quite well to maximize the extrinsic reward by adopting aggressive “racing” behaviors.
 
 ## SETUP
 
