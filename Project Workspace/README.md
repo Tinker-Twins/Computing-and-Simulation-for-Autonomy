@@ -1,6 +1,10 @@
 # A Scalable and Parallelizable Multi-Agent Reinforcement Learning Framework for Cooperative and Competitive Autonomous Vehicles
 **Authors:** Tanmay Samak and Chinmay Samak
 
+| ![](../Project%20Report/Fig1a.png) | ![](../Project%20Report/Fig1b.png) |
+|:--------------------:|:--------------------:|
+| **Cooperative MARL** | **Competitive MARL** |
+
 ## SETUP
 
 1. [Download](https://unity.com/download) and [install](https://docs.unity3d.com/hub/manual/InstallHub.html) Unity Hub along with Unity 2021.3.9f1 (LTS) or higher.
