@@ -7,6 +7,20 @@
 
 This work presents a modular and parallelizable multi-agent deep reinforcement learning framework capable of scaling the parallelized workloads on-demand. We first introduce AutoDRIVE Ecosystem as an enabler to develop physically accurate and graphically realistic digital twins of Nigel and F1TENTH, two scaled autonomous vehicle platforms with unique qualities and capabilities, and leverage this ecosystem to train and deploy cooperative as well as competitive multi-agent reinforcement learning policies. We first investigate an intersection traversal problem using a set of 4 cooperative vehicles (Nigel) that share limited state information with each other in single as well as multi-agent learning settings using a common policy approach. We then investigate an adversarial head-to-head autonomous racing problem using a set of 2 vehicles (F1TENTH) in a multi-agent learning setting using an individual policy approach. In either set of experiments, a decentralized learning architecture was adopted, which allowed robust training and testing of the approaches in stochastic environments, since the agents were mutually independent and exhibited asynchronous motion behavior. The problems were further aggravated by providing the agents with sparse observation spaces and requiring them to sample control commands that implicitly satisfied the imposed kinodynamic as well as safety constraints. The experimental results for both problem statements are reported in terms of quantitative metrics and qualitative remarks for training as well as deployment phases. Additionally, we discuss agent/environment parallelization techniques adopted to efficiently accelerate the MARL training in either case-studies.
 
+## DIGITAL TWINS
+
+| <img src="../Project%20Report/Fig2a.png" width="500"> | <img src="../Project%20Report/Fig2b.png" width="500"> | <img src="../Project%20Report/Fig2c.png" width="500"> | <img src="../Project%20Report/Fig2d.png" width="500"> |
+|:------------------:|:-----------------:|:--------------------:|:-------------------:|
+| **Physical Nigel** | **Virtual Nigel** | **Physical F1TENTH** | **Virtual F1TENTH** |
+
+We leveraged [AutoDRIVE Simulator](https://github.com/Tinker-Twins/AutoDRIVE/tree/AutoDRIVE-Simulator) to develop physically and graphically realistic digital twin models of [Nigel](https://autodrive-ecosystem.github.io) as well as [F1TENTH](https://f1tenth.org), two scaled autonomous vehicle platforms with unique qualities and capabilities. This process involved modeling, calibrating and simulating physically accurate vehicle dynamics, physics-based sensors and actuators as well as environment physics, while equally weighing the lighting and rendering aspects for photorealistic visual fidelity. The focus of this process was to train sim2real-worthy RL policies by bridging the gap between simulation and reality.
+
+| <img src="../Project%20Report/Fig3a.png" width="500"> | <img src="../Project%20Report/Fig3b.png" width="500"> |
+|:----------------------:|:------------------------:|
+| **Nigel Digital Twin** | **F1TENTH Digital Twin** |
+
+From MARL perspective, the said simulation framework was developed modularly using object-oriented programming (OOP) constructs. This allowed selectively scaling up/down the parallel agent/environment instances on demand. Additionally, the simulator took advantage of CPU multi-threading as well as GPU instancing (if available) to efficiently parallelize various simulation objects and processes, with cross-platform support.
+
 ## LEARNING ARCHITECTURES
 
 | <img src="../Project%20Report/Fig4.png" width="500"> | <img src="../Project%20Report/Fig8.png" width="500"> |
