@@ -1,11 +1,21 @@
 # A Scalable and Parallelizable Multi-Agent Reinforcement Learning Framework for Cooperative and Competitive Autonomous Vehicles
 **Authors:** Tanmay Samak and Chinmay Samak
 
-| ![](../Project%20Report/Fig1a.png) | ![](../Project%20Report/Fig1b.png) |
+| <img src="../Project%20Report/Fig1a.png" width="500"> | <img src="../Project%20Report/Fig1b.png" width="500"> |
 |:--------------------:|:--------------------:|
 | **Cooperative MARL** | **Competitive MARL** |
 
 This work presents a modular and parallelizable multi-agent deep reinforcement learning framework capable of scaling the parallelized workloads on-demand. We first introduce AutoDRIVE Ecosystem as an enabler to develop physically accurate and graphically realistic digital twins of Nigel and F1TENTH, two scaled autonomous vehicle platforms with unique qualities and capabilities, and leverage this ecosystem to train and deploy cooperative as well as competitive multi-agent reinforcement learning policies. We first investigate an intersection traversal problem using a set of 4 cooperative vehicles (Nigel) that share limited state information with each other in single as well as multi-agent learning settings using a common policy approach. We then investigate an adversarial head-to-head autonomous racing problem using a set of 2 vehicles (F1TENTH) in a multi-agent learning setting using an individual policy approach. In either set of experiments, a decentralized learning architecture was adopted, which allowed robust training and testing of the approaches in stochastic environments, since the agents were mutually independent and exhibited asynchronous motion behavior. The problems were further aggravated by providing the agents with sparse observation spaces and requiring them to sample control commands that implicitly satisfied the imposed kinodynamic as well as safety constraints. The experimental results for both problem statements are reported in terms of quantitative metrics and qualitative remarks for training as well as deployment phases. Additionally, we discuss agent/environment parallelization techniques adopted to efficiently accelerate the MARL training in either case-studies.
+
+## LEARNING ARCHITECTURES
+
+| <img src="../Project%20Report/Fig4.png" width="500"> | <img src="../Project%20Report/Fig8.png" width="500"> |
+|:--------------------:|:--------------------:|
+| **Deep Reinforcement Learning Architecture for Cooperative MARL** | **Demonstration-Guided DRL Architecture for Competitive MARL** |
+
+We formulated the cooperative MARL problem as a partially observable Markov decision process (POMDP) with limited state sharing among the agents via V2V communication. We adopted a deep reinforcement learning (DRL) architecture and crafted a novel reward function to train the agent(s) to traverse the 4-way intersection safely.
+
+The competitive MARL problem was also formulated as a partially observable Markov decision process (POMDP), but without any state sharing among the agents. We adopted a hybrid imitation-reinforcement learning architecture and crafted a novel reward function to train a deep neural network policy to drive (using imitation learning) and race (using reinforcement learning) autonomously.
 
 ## SETUP
 
