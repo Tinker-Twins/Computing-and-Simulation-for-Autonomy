@@ -45,6 +45,20 @@ We analyzed the training for both single-agent (first row) as well as multi-agen
 
 For competitive MARL, the training phase of the proposed approach was analyzed in order to gain a better insight into the policy optimization process, and comment on the effectiveness of the hybrid learning strategy adopted therein. Particularly, we analyzed the imitation learning (behavioral cloning loss, GAIL reward) and reinforcement learning (curiosity reward, extrinsic reward) metrics along with the episode length and policy entropy.  A general indication of “good” training is that the behavioral cloning loss has decayed smoothly, the GAIL, curiosity and extrinsic rewards are maximized and then saturated, the episode length is adequate (longer duration implies agents driving slowly, while very short duration may be indicative of agents colliding without lap completion), and the policy entropy (i.e., randomness) has decreased steadily as the training progressed. It is to be noted that the non-zero offset in behavioral cloning loss indicates that the agents have not over-fit to the demonstrations; rather, they have explored the state space quite well to maximize the extrinsic reward by adopting aggressive “racing” behaviors.
 
+## SIMULATION PARALLELIZATION
+
+| <img src="../Project%20Report/Fig7a.png" width="500"> | <img src="../Project%20Report/Fig7b.png" width="500"> | <img src="../Project%20Report/Fig7c.png" width="500"> |
+|:-----------------------------------------------------:|:-----------------------------------------------------:|:-----------------------------------------------------:|
+| <img src="../Project%20Report/Fig11a.png" width="500"> | <img src="../Project%20Report/Fig11b.png" width="500"> | <img src="../Project%20Report/Fig11c.png" width="500"> |
+
+We analyzed the effect of agent/environment parallelization on training MARL behaviors.
+- **Environment Parallelization:** Isolated agents can learn the same task in parallel environments. This method can come in handy to train single/multiple agents in different environmental conditions, with slight variation in each environment.
+- **Agent Parallelization:** Parallel agents can learn the same task in the same environment. In a multi-agent setting, these parallel agents will collide/percieve/interact only with their true peers/opponents. Additionally, these parallel agents may/may not be exactly identical, thereby robustifying them against minor parametric variations.
+
+Particularly, we adopted environment parallelization (1 to 25 parallel environments, with 4 agents each) for cooperative MARL and agent parallelization (1x2 to 10x2 adversarial agents) for competitive MARL.
+
+As observed in both the rows, the reduction in training time was quite non-linear since the simulation workload increased with increasing parallelization. As a result, we can notice the curves nearly saturate after a point, which is subject to change with a different hardware/software configuration. Additionally, it should be noted that parallelization beyond a certain point can hurt, wherein the increased simulation workload may slow down the training so much that parallel policy optimization can no longer accelerate it.
+
 ## DEPLOYMENT RESULTS
 
 | <img src="../Project%20Report/Fig6a.png" width="500"> | <img src="../Project%20Report/Fig6b.png" width="500"> | <img src="../Project%20Report/Fig6c.png" width="500"> |
