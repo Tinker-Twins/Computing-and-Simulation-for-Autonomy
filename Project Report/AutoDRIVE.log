@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7380 64-bit) (preloaded format=pdflatex 2022.12.21)  12 DEC 2023 14:30
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7380 64-bit) (preloaded format=pdflatex 2022.12.21)  12 DEC 2023 15:03
 entering extended mode
 **./AutoDRIVE.tex
 (AutoDRIVE.tex
@@ -575,52 +575,68 @@ File: omspcr.fd
 )
 LaTeX Font Info:    Font shape `OMS/pcr/m/n' in size <9> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 79.
-<Fig1a.png, id=113, 1445.4pt x 813.0375pt>
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--93
+[]\OT1/ptm/b/it/9 GitHub---[]$\OT1/pcr/m/n/9 https : / / github . com / Tinker-
+[]Twins /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--93
+\OT1/pcr/m/n/9 Computing-[]and-[]Simulation-[]for-[]Autonomy / tree /
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 92--93
+
+ []
+
+<Fig1a.png, id=114, 1445.4pt x 813.0375pt>
 File: Fig1a.png Graphic file (type png)
 <use Fig1a.png>
-Package pdftex.def Info: Fig1a.png  used on input line 103.
+Package pdftex.def Info: Fig1a.png  used on input line 105.
 (pdftex.def)             Requested size: 245.71811pt x 138.21454pt.
-<Fig1b.png, id=114, 1445.4pt x 813.0375pt>
+<Fig1b.png, id=115, 1445.4pt x 813.0375pt>
 File: Fig1b.png Graphic file (type png)
 <use Fig1b.png>
-Package pdftex.def Info: Fig1b.png  used on input line 110.
+Package pdftex.def Info: Fig1b.png  used on input line 112.
 (pdftex.def)             Requested size: 245.71811pt x 138.21454pt.
-<Fig2a.png, id=117, 722.7pt x 406.51875pt>
+<Fig2a.png, id=118, 722.7pt x 406.51875pt>
 File: Fig2a.png Graphic file (type png)
 <use Fig2a.png>
-Package pdftex.def Info: Fig2a.png  used on input line 124.
+Package pdftex.def Info: Fig2a.png  used on input line 126.
 (pdftex.def)             Requested size: 123.94057pt x 69.71515pt.
-<Fig2b.png, id=119, 1445.4pt x 813.0375pt>
+<Fig2b.png, id=120, 1445.4pt x 813.0375pt>
 File: Fig2b.png Graphic file (type png)
 <use Fig2b.png>
-Package pdftex.def Info: Fig2b.png  used on input line 131.
+Package pdftex.def Info: Fig2b.png  used on input line 133.
 (pdftex.def)             Requested size: 123.94057pt x 69.70895pt.
-<Fig2c.png, id=120, 1084.05pt x 609.77812pt>
+<Fig2c.png, id=121, 1084.05pt x 609.77812pt>
 File: Fig2c.png Graphic file (type png)
 <use Fig2c.png>
-Package pdftex.def Info: Fig2c.png  used on input line 137.
+Package pdftex.def Info: Fig2c.png  used on input line 139.
 (pdftex.def)             Requested size: 123.94057pt x 69.70895pt.
-<Fig2d.png, id=121, 1084.05pt x 609.77812pt>
+<Fig2d.png, id=122, 1084.05pt x 609.77812pt>
 File: Fig2d.png Graphic file (type png)
 <use Fig2d.png>
-Package pdftex.def Info: Fig2d.png  used on input line 144.
+Package pdftex.def Info: Fig2d.png  used on input line 146.
 (pdftex.def)             Requested size: 123.94057pt x 69.70895pt.
- [1{C:/Users/tsamak/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
+[1{C:/Users/tsamak/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
 
 
  <./Fig1a.png> <./Fig1b.png>]
-<Fig3a.png, id=156, 1924.3092pt x 850.377pt>
+<Fig3a.png, id=157, 1924.3092pt x 850.377pt>
 File: Fig3a.png Graphic file (type png)
 <use Fig3a.png>
-Package pdftex.def Info: Fig3a.png  used on input line 169.
+Package pdftex.def Info: Fig3a.png  used on input line 171.
 (pdftex.def)             Requested size: 245.71811pt x 108.58058pt.
-<Fig3b.png, id=157, 2361.5427pt x 675.7245pt>
+<Fig3b.png, id=158, 2361.5427pt x 675.7245pt>
 File: Fig3b.png Graphic file (type png)
 <use Fig3b.png>
-Package pdftex.def Info: Fig3b.png  used on input line 176.
+Package pdftex.def Info: Fig3b.png  used on input line 178.
 (pdftex.def)             Requested size: 245.71811pt x 70.30875pt.
 
-Underfull \hbox (badness 2173) in paragraph at lines 193--194
+Underfull \hbox (badness 2173) in paragraph at lines 195--196
 \OT1/ptm/m/n/10 us-ing a two-piece cu-bic spline, de-fined as $\OML/cmm/m/it/10
  F\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 S\OT1/cmr/m/n/10 ) =
  []
@@ -628,235 +644,235 @@ Underfull \hbox (badness 2173) in paragraph at lines 193--194
 [2 <./Fig2a.png> <./Fig2b.png> <./Fig2c.png> <./Fig2d.png> <./Fig3a.png> <./Fig
 3b.png>]
 LaTeX Font Info:    Trying to load font information for OMS+ptm on input line 2
-06.
+08.
  ("C:\Program Files\MiKTeX 2.9\tex/latex/psnfss\omsptm.fd"
 File: omsptm.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <10> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 206.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 208.
 
-Underfull \hbox (badness 10000) in paragraph at lines 206--207
+Underfull \hbox (badness 10000) in paragraph at lines 208--209
 []\OT1/ptm/m/n/10 The LI-DAR sim-u-la-tion em-ploys it-er-a-tive ray-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 206--207
+Underfull \hbox (badness 10000) in paragraph at lines 208--209
 \OT1/ptm/m/n/10 casting \OT1/pcr/m/n/10 raycast\OMS/cmsy/m/n/10 f$[]\OT1/cmr/bx
 /n/10 T[]$\OT1/ptm/m/n/10 , $[]$, $\OML/cmm/m/it/10 r[]$\OMS/cmsy/m/n/10 g \OT1
 /ptm/m/n/10 for each an-gle
  []
 
 
-Underfull \hbox (badness 4479) in paragraph at lines 206--207
+Underfull \hbox (badness 4479) in paragraph at lines 208--209
 \OML/cmm/m/it/10  \OMS/cmsy/m/n/10 2 []$ \OT1/ptm/m/n/10 at an ap-prox-i-mate 
 up-date
  []
 
 
-Underfull \hbox (badness 1648) in paragraph at lines 206--207
+Underfull \hbox (badness 1648) in paragraph at lines 208--209
 \OT1/ptm/m/n/10 with re-spect to the ve-hi-cle \OMS/cmsy/m/n/10 f$\OML/cmm/m/it
 /10 v$\OMS/cmsy/m/n/10 g \OT1/ptm/m/n/10 and the world \OMS/cmsy/m/n/10 f$\OML/
 cmm/m/it/10 w$\OMS/cmsy/m/n/10 g\OT1/ptm/m/n/10 ,
  []
 
 
-Underfull \hbox (badness 6825) in paragraph at lines 206--207
+Underfull \hbox (badness 6825) in paragraph at lines 208--209
 [] \OT1/cmr/m/n/10 = [][]$ \OT1/ptm/m/n/10 de-fines the
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 206--207
+Underfull \hbox (badness 10000) in paragraph at lines 208--209
 []$\OT1/ptm/m/n/10 ,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 206--207
+Underfull \hbox (badness 10000) in paragraph at lines 208--209
 []$
  []
 
 
-Underfull \hbox (badness 6944) in paragraph at lines 206--207
+Underfull \hbox (badness 6944) in paragraph at lines 208--209
 \OT1/ptm/m/n/10 cal-cu-lates the Eu-clidean dis-tance from the ray-cast
  []
 
 [3]
-Underfull \hbox (badness 1383) in paragraph at lines 226--227
+Underfull \hbox (badness 1383) in paragraph at lines 228--229
 []\OT1/ptm/m/it/10 Plug-In Sce-nar-ios: \OT1/ptm/m/n/10 Au-to-DRIVE Sim-u-la-to
 r sup-ports
  []
 
-<Fig4.png, id=195, 1391.1975pt x 1440.13031pt>
+<Fig4.png, id=198, 1391.1975pt x 1440.13031pt>
 File: Fig4.png Graphic file (type png)
 <use Fig4.png>
-Package pdftex.def Info: Fig4.png  used on input line 238.
+Package pdftex.def Info: Fig4.png  used on input line 240.
 (pdftex.def)             Requested size: 245.71811pt x 254.35588pt.
-<Fig5a.png, id=198, 290.58563pt x 218.31563pt>
+<Fig5a.png, id=201, 290.58563pt x 218.31563pt>
 File: Fig5a.png Graphic file (type png)
 <use Fig5a.png>
-Package pdftex.def Info: Fig5a.png  used on input line 268.
+Package pdftex.def Info: Fig5a.png  used on input line 270.
 (pdftex.def)             Requested size: 80.94424pt x 60.81148pt.
-<Fig5b.png, id=199, 290.58563pt x 218.31563pt>
+<Fig5b.png, id=202, 290.58563pt x 218.31563pt>
 File: Fig5b.png Graphic file (type png)
 <use Fig5b.png>
-Package pdftex.def Info: Fig5b.png  used on input line 275.
+Package pdftex.def Info: Fig5b.png  used on input line 277.
 (pdftex.def)             Requested size: 80.94424pt x 60.81148pt.
-<Fig5c.png, id=200, 290.58563pt x 218.31563pt>
+<Fig5c.png, id=203, 290.58563pt x 218.31563pt>
 File: Fig5c.png Graphic file (type png)
 <use Fig5c.png>
-Package pdftex.def Info: Fig5c.png  used on input line 282.
+Package pdftex.def Info: Fig5c.png  used on input line 284.
 (pdftex.def)             Requested size: 80.94424pt x 60.81148pt.
-<Fig5d.png, id=201, 290.58563pt x 218.31563pt>
+<Fig5d.png, id=204, 290.58563pt x 218.31563pt>
 File: Fig5d.png Graphic file (type png)
 <use Fig5d.png>
-Package pdftex.def Info: Fig5d.png  used on input line 289.
+Package pdftex.def Info: Fig5d.png  used on input line 291.
 (pdftex.def)             Requested size: 80.94424pt x 60.81148pt.
-<Fig5e.png, id=202, 290.58563pt x 218.31563pt>
+<Fig5e.png, id=205, 290.58563pt x 218.31563pt>
 File: Fig5e.png Graphic file (type png)
 <use Fig5e.png>
-Package pdftex.def Info: Fig5e.png  used on input line 296.
+Package pdftex.def Info: Fig5e.png  used on input line 298.
 (pdftex.def)             Requested size: 80.94424pt x 60.81148pt.
-<Fig5f.png, id=203, 290.58563pt x 218.31563pt>
+<Fig5f.png, id=206, 290.58563pt x 218.31563pt>
 File: Fig5f.png Graphic file (type png)
 <use Fig5f.png>
-Package pdftex.def Info: Fig5f.png  used on input line 303.
+Package pdftex.def Info: Fig5f.png  used on input line 305.
 (pdftex.def)             Requested size: 80.94424pt x 60.81148pt.
-<Fig6a.png, id=204, 1445.4pt x 813.0375pt>
+<Fig6a.png, id=207, 1445.4pt x 813.0375pt>
 File: Fig6a.png Graphic file (type png)
 <use Fig6a.png>
-Package pdftex.def Info: Fig6a.png  used on input line 315.
+Package pdftex.def Info: Fig6a.png  used on input line 317.
 (pdftex.def)             Requested size: 80.94424pt x 45.52979pt.
-<Fig6b.png, id=205, 1445.4pt x 813.0375pt>
+<Fig6b.png, id=208, 1445.4pt x 813.0375pt>
 File: Fig6b.png Graphic file (type png)
 <use Fig6b.png>
-Package pdftex.def Info: Fig6b.png  used on input line 322.
+Package pdftex.def Info: Fig6b.png  used on input line 324.
 (pdftex.def)             Requested size: 80.94424pt x 45.52979pt.
-<Fig6c.png, id=206, 1445.4pt x 813.0375pt>
+<Fig6c.png, id=209, 1445.4pt x 813.0375pt>
 File: Fig6c.png Graphic file (type png)
 <use Fig6c.png>
-Package pdftex.def Info: Fig6c.png  used on input line 329.
+Package pdftex.def Info: Fig6c.png  used on input line 331.
 (pdftex.def)             Requested size: 80.94424pt x 45.52979pt.
-<Fig6d.png, id=207, 1445.4pt x 813.0375pt>
+<Fig6d.png, id=210, 1445.4pt x 813.0375pt>
 File: Fig6d.png Graphic file (type png)
 <use Fig6d.png>
-Package pdftex.def Info: Fig6d.png  used on input line 336.
+Package pdftex.def Info: Fig6d.png  used on input line 338.
 (pdftex.def)             Requested size: 80.94424pt x 45.52979pt.
-<Fig6e.png, id=208, 1445.4pt x 813.0375pt>
+<Fig6e.png, id=211, 1445.4pt x 813.0375pt>
 File: Fig6e.png Graphic file (type png)
 <use Fig6e.png>
-Package pdftex.def Info: Fig6e.png  used on input line 343.
+Package pdftex.def Info: Fig6e.png  used on input line 345.
 (pdftex.def)             Requested size: 80.94424pt x 45.52979pt.
-<Fig6f.png, id=209, 1445.4pt x 813.0375pt>
+<Fig6f.png, id=212, 1445.4pt x 813.0375pt>
 File: Fig6f.png Graphic file (type png)
 <use Fig6f.png>
-Package pdftex.def Info: Fig6f.png  used on input line 350.
+Package pdftex.def Info: Fig6f.png  used on input line 352.
 (pdftex.def)             Requested size: 80.94424pt x 45.52979pt.
 [4 <./Fig4.png>]
-<Fig7a.png, id=228, 1445.4pt x 813.0375pt>
+<Fig7a.png, id=231, 1445.4pt x 813.0375pt>
 File: Fig7a.png Graphic file (type png)
 <use Fig7a.png>
-Package pdftex.def Info: Fig7a.png  used on input line 411.
+Package pdftex.def Info: Fig7a.png  used on input line 413.
 (pdftex.def)             Requested size: 161.8885pt x 91.05957pt.
-<Fig7b.png, id=229, 455.45157pt x 255.95625pt>
+<Fig7b.png, id=232, 455.45157pt x 255.95625pt>
 File: Fig7b.png Graphic file (type png)
 <use Fig7b.png>
-Package pdftex.def Info: Fig7b.png  used on input line 418.
+Package pdftex.def Info: Fig7b.png  used on input line 420.
 (pdftex.def)             Requested size: 161.8885pt x 90.9803pt.
-<Fig7c.png, id=230, 455.45157pt x 255.95625pt>
+<Fig7c.png, id=233, 455.45157pt x 255.95625pt>
 File: Fig7c.png Graphic file (type png)
 <use Fig7c.png>
-Package pdftex.def Info: Fig7c.png  used on input line 425.
+Package pdftex.def Info: Fig7c.png  used on input line 427.
 (pdftex.def)             Requested size: 161.8885pt x 90.9803pt.
  [5 <./Fig5a.png> <./Fig5b.png> <./Fig5c.png> <./Fig5d.png> <./Fig5e.png> <./Fi
 g5f.png> <./Fig6a.png> <./Fig6b.png> <./Fig6c.png> <./Fig6d.png> <./Fig6e.png> 
 <./Fig6f.png>]
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <8> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 447.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 449.
  [6 <./Fig7a.png> <./Fig7b.png> <./Fig7c.png>]
-<Fig8.png, id=266, 763.35187pt x 706.13812pt>
+<Fig8.png, id=269, 763.35187pt x 706.13812pt>
 File: Fig8.png Graphic file (type png)
 <use Fig8.png>
-Package pdftex.def Info: Fig8.png  used on input line 488.
+Package pdftex.def Info: Fig8.png  used on input line 490.
 (pdftex.def)             Requested size: 245.71811pt x 227.29411pt.
 
-Underfull \hbox (badness 5832) in paragraph at lines 500--501
+Underfull \hbox (badness 5832) in paragraph at lines 502--503
 []\OT1/ptm/m/n/10 We adopted an equally-weighted hy-brid imitation-
  []
 
-<Fig9a.png, id=269, 290.58563pt x 218.31563pt>
+<Fig9a.png, id=272, 290.58563pt x 218.31563pt>
 File: Fig9a.png Graphic file (type png)
 <use Fig9a.png>
-Package pdftex.def Info: Fig9a.png  used on input line 506.
+Package pdftex.def Info: Fig9a.png  used on input line 508.
 (pdftex.def)             Requested size: 80.94424pt x 60.81148pt.
-<Fig9b.png, id=270, 290.58563pt x 218.31563pt>
+<Fig9b.png, id=273, 290.58563pt x 218.31563pt>
 File: Fig9b.png Graphic file (type png)
 <use Fig9b.png>
-Package pdftex.def Info: Fig9b.png  used on input line 513.
+Package pdftex.def Info: Fig9b.png  used on input line 515.
 (pdftex.def)             Requested size: 80.94424pt x 60.81148pt.
-<Fig9c.png, id=271, 290.58563pt x 218.31563pt>
+<Fig9c.png, id=274, 290.58563pt x 218.31563pt>
 File: Fig9c.png Graphic file (type png)
 <use Fig9c.png>
-Package pdftex.def Info: Fig9c.png  used on input line 520.
+Package pdftex.def Info: Fig9c.png  used on input line 522.
 (pdftex.def)             Requested size: 80.94424pt x 60.81148pt.
-<Fig9d.png, id=272, 290.58563pt x 218.31563pt>
+<Fig9d.png, id=275, 290.58563pt x 218.31563pt>
 File: Fig9d.png Graphic file (type png)
 <use Fig9d.png>
-Package pdftex.def Info: Fig9d.png  used on input line 527.
+Package pdftex.def Info: Fig9d.png  used on input line 529.
 (pdftex.def)             Requested size: 80.94424pt x 60.81148pt.
-<Fig9e.png, id=273, 290.58563pt x 218.31563pt>
+<Fig9e.png, id=276, 290.58563pt x 218.31563pt>
 File: Fig9e.png Graphic file (type png)
 <use Fig9e.png>
-Package pdftex.def Info: Fig9e.png  used on input line 534.
+Package pdftex.def Info: Fig9e.png  used on input line 536.
 (pdftex.def)             Requested size: 80.94424pt x 60.81148pt.
-<Fig9f.png, id=274, 290.58563pt x 218.31563pt>
+<Fig9f.png, id=277, 290.58563pt x 218.31563pt>
 File: Fig9f.png Graphic file (type png)
 <use Fig9f.png>
-Package pdftex.def Info: Fig9f.png  used on input line 541.
+Package pdftex.def Info: Fig9f.png  used on input line 543.
 (pdftex.def)             Requested size: 80.94424pt x 60.81148pt.
-<Fig10a.png, id=275, 1445.4pt x 813.0375pt>
+<Fig10a.png, id=278, 1445.4pt x 813.0375pt>
 File: Fig10a.png Graphic file (type png)
 <use Fig10a.png>
-Package pdftex.def Info: Fig10a.png  used on input line 553.
+Package pdftex.def Info: Fig10a.png  used on input line 555.
 (pdftex.def)             Requested size: 80.94424pt x 45.52979pt.
-<Fig10b.png, id=276, 1445.4pt x 813.0375pt>
+<Fig10b.png, id=279, 1445.4pt x 813.0375pt>
 File: Fig10b.png Graphic file (type png)
 <use Fig10b.png>
-Package pdftex.def Info: Fig10b.png  used on input line 560.
+Package pdftex.def Info: Fig10b.png  used on input line 562.
 (pdftex.def)             Requested size: 80.94424pt x 45.52979pt.
-<Fig10c.png, id=277, 1445.4pt x 813.0375pt>
+<Fig10c.png, id=280, 1445.4pt x 813.0375pt>
 File: Fig10c.png Graphic file (type png)
 <use Fig10c.png>
-Package pdftex.def Info: Fig10c.png  used on input line 567.
+Package pdftex.def Info: Fig10c.png  used on input line 569.
 (pdftex.def)             Requested size: 80.94424pt x 45.52979pt.
-<Fig10d.png, id=278, 1445.4pt x 813.0375pt>
+<Fig10d.png, id=281, 1445.4pt x 813.0375pt>
 File: Fig10d.png Graphic file (type png)
 <use Fig10d.png>
-Package pdftex.def Info: Fig10d.png  used on input line 574.
+Package pdftex.def Info: Fig10d.png  used on input line 576.
 (pdftex.def)             Requested size: 80.94424pt x 45.52979pt.
-<Fig10e.png, id=279, 1445.4pt x 813.0375pt>
+<Fig10e.png, id=282, 1445.4pt x 813.0375pt>
 File: Fig10e.png Graphic file (type png)
 <use Fig10e.png>
-Package pdftex.def Info: Fig10e.png  used on input line 581.
+Package pdftex.def Info: Fig10e.png  used on input line 583.
 (pdftex.def)             Requested size: 80.94424pt x 45.52979pt.
-<Fig10f.png, id=280, 1445.4pt x 813.0375pt>
+<Fig10f.png, id=283, 1445.4pt x 813.0375pt>
 File: Fig10f.png Graphic file (type png)
 <use Fig10f.png>
-Package pdftex.def Info: Fig10f.png  used on input line 588.
+Package pdftex.def Info: Fig10f.png  used on input line 590.
 (pdftex.def)             Requested size: 80.94424pt x 45.52979pt.
 [7 <./Fig8.png>]
-<Fig11a.png, id=306, 1445.4pt x 813.0375pt>
+<Fig11a.png, id=309, 1445.4pt x 813.0375pt>
 File: Fig11a.png Graphic file (type png)
 <use Fig11a.png>
-Package pdftex.def Info: Fig11a.png  used on input line 704.
+Package pdftex.def Info: Fig11a.png  used on input line 706.
 (pdftex.def)             Requested size: 161.8885pt x 91.05957pt.
-<Fig11b.png, id=307, 455.45157pt x 256.70906pt>
+<Fig11b.png, id=310, 455.45157pt x 256.70906pt>
 File: Fig11b.png Graphic file (type png)
 <use Fig11b.png>
-Package pdftex.def Info: Fig11b.png  used on input line 711.
+Package pdftex.def Info: Fig11b.png  used on input line 713.
 (pdftex.def)             Requested size: 161.8885pt x 91.2479pt.
-<Fig11c.png, id=308, 455.45157pt x 256.70906pt>
+<Fig11c.png, id=311, 455.45157pt x 256.70906pt>
 File: Fig11c.png Graphic file (type png)
 <use Fig11c.png>
-Package pdftex.def Info: Fig11c.png  used on input line 718.
+Package pdftex.def Info: Fig11c.png  used on input line 720.
 (pdftex.def)             Requested size: 161.8885pt x 91.2479pt.
  [8 <./Fig9a.png> <./Fig9b.png> <./Fig9c.png> <./Fig9d.png> <./Fig9e.png> <./Fi
 g9f.png> <./Fig10a.png> <./Fig10b.png> <./Fig10c.png> <./Fig10d.png> <./Fig10e.
@@ -873,22 +889,22 @@ Before submitting the final camera ready copy, remember to:
  uses only Type 1 fonts and that every step in the generation
  process uses the US letter (8.5in X 11in) paper size.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 763.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 765.
 [10]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 763.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 765.
  (AutoDRIVE.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 763.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 763.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 765.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 765.
 Package rerunfilecheck Info: File `AutoDRIVE.out' has not changed.
 (rerunfilecheck)             Checksum: 2935CE12C5E4DBEBBAF61E343EAD507F;1710.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 763.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 765.
  ) 
 Here is how much of TeX's memory you used:
- 10169 strings out of 480898
- 154930 string characters out of 2908364
+ 10179 strings out of 480898
+ 155024 string characters out of 2908364
  460444 words of memory out of 3000000
- 25713 multiletter control sequences out of 15000+200000
- 580188 words of font info for 131 fonts, out of 3000000 for 9000
+ 25719 multiletter control sequences out of 15000+200000
+ 581584 words of font info for 137 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  41i,13n,42p,2440b,466s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/base/8r.enc}<C:/Program Files/Mi
@@ -911,9 +927,9 @@ gram Files/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files/MiKTeX
  2.9/fonts/type1/urw/times/utmbi8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1
 /urw/times/utmr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/urw/times/utmri8
 a.pfb>
-Output written on AutoDRIVE.pdf (10 pages, 33849901 bytes).
+Output written on AutoDRIVE.pdf (10 pages, 33854946 bytes).
 PDF statistics:
- 462 PDF objects out of 1000 (max. 8388607)
+ 465 PDF objects out of 1000 (max. 8388607)
  88 named destinations out of 1000 (max. 500000)
  417 words of extra memory for PDF output out of 10000 (max. 10000000)
 
