@@ -70,11 +70,23 @@
     ```
 
     > ***Note:*** *It is strongly recommended that you use packages from the same release together for the best experience. Please consult the [official Unity ML-Agents releases page](https://github.com/Unity-Technologies/ml-agents/releases) for better understanding the version compatibility of different packages.*
+
 ## USAGE
 
 ### Programming
 
-Every `agent` needs a script inherited from the `Agent` class. Following are some of the useful methods:
+Every `agent` needs a script inherited from the `Agent` class. This project contains two such `agent` scripts:
+- [NigelCrossing](https://github.com/Tinker-Twins/Computing-and-Simulation-for-Autonomy/blob/main/Project%20Workspace/Scripts/NigelCrossing.cs): For collaborative multi-agent intersection traversal.
+- [F1TenthRacing](https://github.com/Tinker-Twins/Computing-and-Simulation-for-Autonomy/blob/main/Project%20Workspace/Scripts/F1TenthRacing.cs): For competitive head-to-head autonomous racing.
+
+For defining your own agents, you will first need to import the `Unity.MLAgents` namespace as follows:
+```C#
+using Unity.MLAgents;
+using Unity.MLAgents.Sensors;
+using Unity.MLAgents.Actuators;
+```
+
+Following are some useful methods from the `Agent` class:
 
 1. `public override void Initialize()`
 
@@ -84,23 +96,25 @@ Every `agent` needs a script inherited from the `Agent` class. Following are som
 
 	Collects observations. Use `sensor.AddObservation(xyz)` to add observation "xyz".
 
-3. `public override void OnActionReceived(float[] vectorAction)`
+3. `public override void OnActionReceived(ActionBuffers actions)`
 
-	Define the actions to be performed using the passed `vectorAction`. Reward function is also defined here. You can use `if`-`else` cases to define rewards/penalties. Don't forget to call `EndEpisode()` to indicate end of episode.
+	Map the actions from the `agent` to the actuations be performed by the `actor` using the passed `actions`. You can choose a discrete action space using `actions.DiscreteActions[i]` or a continuous one using `actions.ContinuousActions[i]`. Reward function is also defined in this section using the `SetReward()` method. You can use `if`-`else` cases to define rewards/penalties. Finally, don't forget to call `EndEpisode()` to indicate end of episode.
 
-4. `public override void OnEpisodeBegin()`
+	> ***Note:*** *It is to be noted that `agent` is an intelligent entity capable of making observations and taking decisions; it can “learn”. On the contrary, `actor` is a physical entity within the environment. It is controlled by an agent. In this context, the terms "agent" and "AI" can go together, much like interchangeably using the terms “actor” and “robot”.*
 
-	This is called when `EndEpisode()` is called. Define your "reset" algorithm here before starting the next episode.
+5. `public override void OnEpisodeBegin()`
 
-5. `public override void Heuristic(float[] actionsOut)`
+	This method is called after `EndEpisode()`. Define your "reset" algorithm here before starting the next episode.
 
-	Use `actionsOut[i]` to define manual controls during `Heuristic Only` behaviour.
+6. `public override void Heuristic(in ActionBuffers actionsOut)`
 
-Attach this script to the agent along with `BehaviourParameters` and `DecisionRequester` scripts inbuilt with the ML-Agents Unity Package (just search their names in `Add Component` dropdown menu of the agent gameobject).
+	Use `actionsOut.DiscreteActions[i]` or `actionsOut.ContinuousActions[i]` to define manual-override controls during `Heuristic Only` behaviour of the agent.
+
+You will need to attach this `agent` script to the agent along with `BehaviourParameters` and `DecisionRequester` scripts inbuilt with the ML-Agents Unity Package (just search their names in `Add Component` dropdown menu of the agent gameobject). Optionally, you may also want to add `DemonstrationRecorder` script for imitation learning or demonstration-guided reinforcement learning. Finally, ML-Agents Unity Package also provides several sensor scripts such as `VectorSensor`, `GridSensor`, `CameraSensor`, `RenderTextureSensor`, `RayPerceptionSensor`, etc., which may come in handy.
 
 ### Debugging
 
-After defining your logic, test the functionality by selecting `Heuristic Only` in the `Behaviour Type` of the `BehaviourParameters` attached to the agent.
+After defining your logic, test the functionality by selecting `Heuristic Only` mode in the `Behaviour Type` of the `BehaviourParameters` script attached to the agent. You can manually control the agents to validate observation and action spaces, reward signals, resetting conditions, or complexity of the scenario/behavior in general.
 
 ### Training
 
