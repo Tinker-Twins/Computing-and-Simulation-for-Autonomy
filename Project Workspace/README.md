@@ -240,7 +240,7 @@ For creating your own training configurations, please refer to the [official tra
 
 3. Open browser application (tested with Google Chrome) and log on to http://localhost:6006 to view the training results.
 
-> ***Note:*** *You can view the training results "live" as the training happens, or choose to view it after the training is complete.*
+    > ***Note:*** *You can view the training results "live" as the training happens, or choose to view it after the training is complete.*
 
 ### Deployment
 
@@ -260,4 +260,4 @@ For creating your own training configurations, please refer to the [official tra
 
 3. As long as possible, duplicate the training agents/environments within the scene to ensure parallel (faster) training.
 
-    ***Note:*** *Make sure to commit changes (if any) to all the duplicates as well!*
+    > ***Note:*** *Make sure to commit changes (if any) to all the duplicates as well!*
