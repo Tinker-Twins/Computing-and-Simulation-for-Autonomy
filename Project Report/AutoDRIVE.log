@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7380 64-bit) (preloaded format=pdflatex 2022.12.21)  12 DEC 2023 21:24
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 2.9.7380 64-bit) (preloaded format=pdflatex 2022.12.21)  14 DEC 2023 03:09
 entering extended mode
 **./AutoDRIVE.tex
 (AutoDRIVE.tex
@@ -905,7 +905,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 766.
  ) 
 Here is how much of TeX's memory you used:
  10179 strings out of 480898
- 155024 string characters out of 2908364
+ 155072 string characters out of 2908364
  461444 words of memory out of 3000000
  25719 multiletter control sequences out of 15000+200000
  581584 words of font info for 137 fonts, out of 3000000 for 9000
